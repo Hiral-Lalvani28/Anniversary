@@ -869,7 +869,7 @@ export default function AnniversaryWebsite() {
             </p> */}
 
             <audio controls className="w-full rounded-xl">
-              <source src="/public/bg.mp3" type="audio/mpeg" />
+              <source src="/voice.mp3" type="audio/mpeg" />
             </audio>
           </motion.div>
         </div>
@@ -1090,7 +1090,7 @@ sm:py-32
       </footer>
 
       <audio ref={audioRef} loop className="hidden">
-        <source src="/public/bg.mp3" type="audio/mpeg" />
+        <source src="/bg.mp3" type="audio/mpeg" />
       </audio>
     </div>
   );
