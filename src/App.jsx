@@ -393,7 +393,7 @@ export default function AnniversaryWebsite() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-3">
-              {["/public/m1.jpeg", "/public/m2.jpeg", "/public/m3.jpeg"].map(
+              {["/m1.jpeg", "/m2.jpeg", "/m3.jpeg"].map(
                 (img, index) => (
                   <Tilt
                     key={index}
@@ -612,35 +612,35 @@ export default function AnniversaryWebsite() {
           >
             {[
               {
-                img: "/public/g1.jpeg",
+                img: "/g1.jpeg",
                 className: "lg:col-span-2 lg:row-span-2",
               },
               {
-                img: "/public/g2.jpeg",
+                img: "/g2.jpeg",
                 className: "lg:row-span-1",
               },
               {
-                img: "/public/g3.jpeg",
+                img: "/g3.jpeg",
                 className: "lg:row-span-1",
               },
               {
-                img: "/public/g15.jpeg",
+                img: "/g15.jpeg",
                 className: "lg:col-span-2",
               },
               {
-                img: "/public/g7.jpeg",
+                img: "/g7.jpeg",
                 className: "",
               },
               {
-                img: "/public/g4.jpeg",
+                img: "/g4.jpeg",
                 className: "",
               },
               {
-                img: "/public/g14.jpeg",
+                img: "/g14.jpeg",
                 className: "",
               },
               {
-                img: "/public/g17.jpeg",
+                img: "/g17.jpeg",
                 className: "",
               },
             ].map((item, index) => (
